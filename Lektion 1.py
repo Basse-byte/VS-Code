@@ -1,7 +1,7 @@
 # name="Sebastian"
 # age=30
 # temp=10, "Grader Ceclius"
-# control=(1=1)
+# control=(1==1)
 # print(name, age, temp, control)
 
 
@@ -11,7 +11,6 @@ print(a+b)
 print(a-b)
 print(a*b)
 print(a/b)
-# Golvdivision? print(a+b)
 print(a//b)
 print(a**b) """
 

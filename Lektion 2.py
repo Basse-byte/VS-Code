@@ -24,6 +24,7 @@ print("Result is: ", results)
 11 * 2 + 4 / 2
 """
 
+"""
 # Arytmiska uträkningar med floats
 a = 5.5
 b = 2.0
@@ -32,5 +33,20 @@ sums = a + b
 product = a * b
 print(sums)
 print(product)
+"""
+
+"""
+# Boolean True/False
+a = 5
+b = 4
+results = a != b
+print(results)
+"""
 
 
+# Uppgift kaåitel 2
+
+
+namn = " aNnA kaRlSsOn "
+
+print(text.lower)
