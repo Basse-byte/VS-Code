@@ -1,0 +1,1 @@
+## init.py måste alltid finnas i samma katalog som andra delar av paketet. Ska inte innehålla något.##

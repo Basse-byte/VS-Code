@@ -1,0 +1,48 @@
+
+Pinging 83.249.72.150 with 32 bytes of data:
+Reply from 83.249.72.150: bytes=32 time=1ms TTL=64
+Reply from 83.249.72.150: bytes=32 time=1ms TTL=64
+Reply from 83.249.72.150: bytes=32 time=1ms TTL=64
+Reply from 83.249.72.150: bytes=32 time=1ms TTL=64
+
+Ping statistics for 83.249.72.150:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+
+Pinging 208.67.222.222 with 32 bytes of data:
+Reply from 208.67.222.222: bytes=32 time=11ms TTL=57
+Reply from 208.67.222.222: bytes=32 time=12ms TTL=57
+Reply from 208.67.222.222: bytes=32 time=11ms TTL=57
+Reply from 208.67.222.222: bytes=32 time=12ms TTL=57
+
+Ping statistics for 208.67.222.222:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 12ms, Average = 11ms
+
+
+Pinging 208.67.220.220 with 32 bytes of data:
+Reply from 208.67.220.220: bytes=32 time=11ms TTL=57
+Reply from 208.67.220.220: bytes=32 time=11ms TTL=57
+Reply from 208.67.220.220: bytes=32 time=11ms TTL=57
+Reply from 208.67.220.220: bytes=32 time=11ms TTL=57
+
+Ping statistics for 208.67.220.220:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 11ms, Average = 11ms
+
+
+Pinging 8.8.4.4 with 32 bytes of data:
+Reply from 8.8.4.4: bytes=32 time=3ms TTL=59
+Reply from 8.8.4.4: bytes=32 time=4ms TTL=59
+Reply from 8.8.4.4: bytes=32 time=5ms TTL=59
+Reply from 8.8.4.4: bytes=32 time=3ms TTL=59
+
+Ping statistics for 8.8.4.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 5ms, Average = 3ms
+

@@ -72,3 +72,47 @@
 #         break
 
 # print(filmer)
+
+
+
+## Avancerad uppgift #############################################################################################
+
+data = {
+"studenter": [
+("Alice", {"ålder": 25, "ämnen": ("Matematik", "Fysik"), "aktiv": True}),
+("Bob", {"ålder": 22, "ämnen": ("Biologi",), "aktiv": False}),
+("Charlie", {"ålder": 23, "ämnen": ("Matematik", "Biologi"), "aktiv": True}),
+("Diana", {"ålder": 24, "ämnen": ("Fysik",), "aktiv": False}),
+("Eve", {"ålder": 21, "ämnen": ("Matematik", "Fysik", "Biologi"), "aktiv": True}),],
+"kurser": {
+"Matematik": {"studenter": {"Alice", "Charlie", "Eve"}},
+"Fysik": {"studenter": {"Alice", "Diana", "Eve"}},
+"Biologi": {"studenter": {"Bob", "Charlie", "Eve"}},
+}
+}
+
+
+aktiva_studenter = [] # Skapar en tom lista att lagra aktiva studenter i.
+for student in data["studenter"]: # Vi går igenom varje student.
+    if student[1]["aktiv"]: # Om studenten är aktiv lägger vi till den i listan.
+        aktiva_studenter.append(student[0])
+
+aktiva_studenter = tuple[aktiva_studenter] # Vi gör om listan till en Tuple.
+
+# print(aktiva_studenter)
+
+# Lista för att lagra alla ämnen från aktiva studenter
+alla_amnen = []
+
+# Gå igenom varje student
+for student in data["studenter"]:
+    if student[1]["aktiv"]:
+        # Lägg till alla ämnen för den aktuella studenten till listan
+        alla_amnen.extend(student[1]["ämnen"])
+
+# Skapa ett set för att få unika ämnen
+unika_amnen = set(alla_amnen)
+
+# print(unika_amnen)
+
+
